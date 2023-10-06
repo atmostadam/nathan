@@ -7,7 +7,7 @@ import { drawFilledRectangle } from "https://atmostadam.github.io/game-library/u
  * 
  * @see https://atmostadam.com/doc/index.html
  */
-export class DadsGameLoop {
+export class NathansGameLoop {
     constructor() {
         // Ignore constructor() for now. This will be covered in a future lesson.
     }
@@ -17,6 +17,6 @@ export class DadsGameLoop {
     }
 
     draw() {
-        drawFilledRectangle("green", 100, 100, 100, 100);
+        drawFilledRectangle("blue", 100, 100, 100, 100);
     }
 }
